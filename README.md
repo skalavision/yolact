@@ -13,7 +13,7 @@ A simple, fully convolutional model for real-time instance segmentation. This is
  - [YOLACT++: Better Real-time Instance Segmentation](https://arxiv.org/abs/1912.06218)
 
 #### Checkpoint link
-https://drive.google.com/file/d/1AyMWiPj5xFCsAj7FLc3Bk6xYLCEWgZ8i/view?usp=sharing
+https://drive.google.com/file/d/11_XQPeBfAJ2Q6GsJdn_J0dofbDWM_rGO/view?usp=sharing
 
 #### YOLACT++ (v1.2) released! ([Changelog](CHANGELOG.md))
 YOLACT++'s resnet50 model runs at 33.5 fps on a Titan Xp and achieves 34.1 mAP on COCO's `test-dev` (check out our journal paper [here](https://arxiv.org/abs/1912.06218)).
