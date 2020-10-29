@@ -139,6 +139,18 @@ food_dataset = dataset_base.copy({
   'label_map': { 1:  1 }
 })
 
+
+food_dataset_full = dataset_base.copy({
+  'name': 'Food dataset Full',
+  'train_info': './datasets/food/full.json',
+  'train_images': './datasets/food/',
+  'valid_info': './datasets/food/full.json',
+  'valid_images': './datasets/food/',
+  'class_names': ('еда'),
+  'label_map': { 1:  1 }
+})
+
+
 coco2014_dataset = dataset_base.copy({
     'name': 'COCO 2014',
 
@@ -765,8 +777,8 @@ yolact_resnet50_config = yolact_base_config.copy({
 yolact_resnet50_food_config = yolact_resnet50_config.copy({
     'name': 'yolact_plus_resnet50_food',
     # Dataset stuff
-    'dataset': food_dataset,
-    'num_classes': len(food_dataset.class_names) + 1,
+    'dataset': food_dataset_full,
+    'num_classes': len(food_dataset_full.class_names) + 1,
 
     # Image Size
     'max_size': 512,
